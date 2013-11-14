@@ -1,0 +1,29 @@
+{
+    "name": "bclibraries/subjectify",
+    "description": "BC Libraries Subejct hints",
+    "type": "library",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ben Florin",
+            "email": "benjamin.florin@bc.edu"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BCLibraries/lc-call-numbers"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "everyman/neo4jphp": "dev-master",
+        "bclibraries/lc-call-numbers" : "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BCLib": "src/"
+        }
+    }
+}

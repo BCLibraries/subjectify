@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "8d485af80328d1a67104221aa652fd39",
+    "packages": [
+        {
+            "name": "bclibraries/lc-call-numbers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BCLibraries/lc-call-numbers.git",
+                "reference": "43ab9caa90e7af2332d28acd5337279ae09f2799"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BCLibraries/lc-call-numbers/zipball/43ab9caa90e7af2332d28acd5337279ae09f2799",
+                "reference": "43ab9caa90e7af2332d28acd5337279ae09f2799",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "BCLib": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Florin",
+                    "email": "benjamin.florin@bc.edu"
+                }
+            ],
+            "description": "Parses and normalizes Library of Congress call numbers",
+            "support": {
+                "source": "https://github.com/BCLibraries/lc-call-numbers/tree/master",
+                "issues": "https://github.com/BCLibraries/lc-call-numbers/issues"
+            },
+            "time": "2013-11-14 18:44:44"
+        },
+        {
+            "name": "everyman/neo4jphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jadell/neo4jphp.git",
+                "reference": "d4b235bd2d4980429f88e4e9dc1f7c123b8ba977"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jadell/neo4jphp/zipball/d4b235bd2d4980429f88e4e9dc1f7c123b8ba977",
+                "reference": "d4b235bd2d4980429f88e4e9dc1f7c123b8ba977",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Everyman\\Neo4j": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Adell",
+                    "email": "josh.adell@gmail.com",
+                    "homepage": "http://joshadell.com"
+                }
+            ],
+            "description": "Wrapper for the Neo4j graph database REST interface",
+            "homepage": "http://github.com/jadell/neo4jphp/wiki",
+            "keywords": [
+                "database",
+                "graph",
+                "neo4j"
+            ],
+            "time": "2013-10-25 23:26:42"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "everyman/neo4jphp": 20
+    },
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": [
+
+    ]
+}
